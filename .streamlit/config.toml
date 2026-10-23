@@ -1,0 +1,15 @@
+[theme]
+base = "light"
+primaryColor = "#B4532A"
+backgroundColor = "#FFFBF5"
+secondaryBackgroundColor = "#F7EFE3"
+textColor = "#2B2118"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+# Stops harmless "torchvision" traceback noise caused by Streamlit's file watcher scanning `transformers`.
+# After editing code, stop (Ctrl+C) and restart `streamlit run src/app.py`.
+fileWatcherType = "none"
