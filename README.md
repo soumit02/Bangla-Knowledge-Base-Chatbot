@@ -145,12 +145,7 @@ pip install -r requirements.txt
 
 ### 4. Configure your API key
 
-Copy the template and fill in your own values:
-
-**Windows (PowerShell):** `copy .env.example .env`
-**macOS / Linux:** `cp .env.example .env`
-
-Then edit `.env`:
+Fill in your own values in `.env`:
 
 ```env
 GROQ_API_KEY=your_api_key_here
